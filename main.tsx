@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import App from './App.tsx'
 
 // Polyfill window.storage for local browser storage (replaces Claude artifact storage)
 const store: Record<string, string> = {};
